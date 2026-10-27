@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARCANUM — Documentos legales</title>
+<meta name="description" content="Política de privacidad, términos de servicio y eliminación de cuenta de ARCANUM.">
+<style>
+  /* Paleta tomada de lib/core/theme/arcanum_colors.dart, para que esto no
+     parezca otro producto distinto al abrirlo desde la ficha de Play. */
+  :root{
+    --fondo:#0a0a0f; --panel:#12121a; --borde:#26263a;
+    --tinta:#e8e3d9; --tinta-suave:#a9a496; --oro:#c9a84c; --oro-apagado:#8a6e32;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--fondo); color:var(--tinta);
+    font:16px/1.7 Georgia,"Times New Roman",serif;
+  }
+  .portada{
+    text-align:center; padding:5rem 1.25rem 3rem;
+    border-bottom:1px solid var(--borde);
+  }
+  .portada h1{
+    margin:0 0 .6rem; font-size:2.6rem; font-weight:400;
+    letter-spacing:.32em; color:var(--oro); text-indent:.32em;
+  }
+  .portada p{margin:0; color:var(--tinta-suave); font-size:.9rem;
+    font-family:system-ui,sans-serif; letter-spacing:.08em; text-transform:uppercase}
+  main{max-width:40rem; margin:0 auto; padding:2.5rem 1.25rem 5rem}
+  .doc{
+    display:block; text-decoration:none; color:inherit;
+    background:var(--panel); border:1px solid var(--borde); border-radius:6px;
+    padding:1.25rem 1.4rem; margin:0 0 1rem;
+  }
+  .doc:hover,.doc:focus{border-color:var(--oro-apagado); outline:none}
+  .doc h2{margin:0 0 .3rem; font-size:1.15rem; color:var(--oro); font-weight:400}
+  .doc p{margin:0; color:var(--tinta-suave); font-size:.94rem}
+  footer{
+    max-width:40rem; margin:0 auto; padding:0 1.25rem 4rem;
+    color:var(--tinta-suave); font-size:.85rem; font-family:system-ui,sans-serif;
+  }
+  footer a{color:var(--oro-apagado)}
+</style>
+</head>
+<body>
+
+<div class="portada">
+  <h1>ARCANUM</h1>
+  <p>Documentos legales</p>
+</div>
+
+<main>
+  <a class="doc" href="privacy-policy.html">
+    <h2>Política de privacidad</h2>
+    <p>Qué datos recoge la App, para qué, con quién se comparten y qué está cifrado.</p>
+  </a>
+
+  <a class="doc" href="terms-of-service.html">
+    <h2>Términos de servicio</h2>
+    <p>Condiciones de uso, suscripciones y límites del plan gratuito.</p>
+  </a>
+
+  <a class="doc" href="account-deletion.html">
+    <h2>Eliminar tu cuenta</h2>
+    <p>Cómo borrarla desde la App o sin tenerla instalada, y qué se borra exactamente.</p>
+  </a>
+</main>
+
+<footer>
+  Cada documento tiene su propia dirección, para poder enlazarlo directamente.
+  Contacto: <a href="mailto:arcanum.magick.app@gmail.com">arcanum.magick.app@gmail.com</a>
+</footer>
+
+</body>
+</html>
